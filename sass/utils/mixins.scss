@@ -1,0 +1,25 @@
+@import "../utils/variables.scss";
+
+@mixin button-reserver {
+    all: unset;
+    padding: 12px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(to bottom, $secondary-color, $main-color);
+    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: opacity 1000ms, box-shadow 1000ms;
+    &:hover {
+        opacity: 0.8;
+        box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@mixin heart {
+    font-weight: 900;
+    background-image: $gradient;
+    background-clip: text;
+    color: transparent;
+    transition: 0.3s;
+    transform: scale(1.15);
+}

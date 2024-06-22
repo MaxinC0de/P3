@@ -1,0 +1,22 @@
+.header__container {
+    display: flex; 
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 7px;
+
+    .header__img {
+        width: 130px;
+    }
+}
+
+header i {
+    position: absolute;
+    left: 0;
+    margin-left: 12px;
+    margin-top: 2px;
+}
+
+.header__container a {
+    all: unset; 
+    cursor: pointer; 
+}
